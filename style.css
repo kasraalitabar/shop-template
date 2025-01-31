@@ -1,5 +1,32 @@
 .root{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 80px;
+}
+h6{
+    text-align: end;
+    color: #a0a0a0;
+}
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: end;
+}
+h3{
+    text-align: end;
+    width: max-content;
+    margin-left: 64px;
+    display: inline-block;
+    
+}
+h4{
+    display: inline-block;
+    border-radius: 20px;
+}
+.line{
+    border: solid rgb(85, 85, 85);
+    width: 500px;
+    border-radius: 10px;
+    
 }
