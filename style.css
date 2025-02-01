@@ -32,7 +32,23 @@ h4{
 .all{
     display: flex;
     flex-direction: row;
+    gap: 5px;
+    justify-content: space-between;
 }
 #demo{
-    font-size: 50px
+    font-size: 40px
+}
+.mojood{
+    color: rgb(0, 194, 0);
+    font-size: larger;
+    text-align: end;
+}
+button{
+    width: 440px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
 }
