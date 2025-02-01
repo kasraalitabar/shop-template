@@ -28,5 +28,11 @@ h4{
     border: solid rgb(85, 85, 85);
     width: 500px;
     border-radius: 10px;
-    
+}
+.all{
+    display: flex;
+    flex-direction: row;
+}
+#demo{
+    font-size: 50px
 }
